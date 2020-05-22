@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\jeang\\Desktop\\Projetos\\Everis\\PelandoSalesWebScrap\\PelandoSalesWebScrap.csproj",
+  "TargetFramework": "netcoreapp3.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
