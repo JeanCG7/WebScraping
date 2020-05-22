@@ -146,7 +146,7 @@ namespace PelandoSalesWebScrap
         static void ExportToCsv(List<Product> lstProducts)
         {
             var fileName = $"{Search}_{DateTime.Now.ToString()}".Replace(@"/", "-").Replace(":", "-");
-            using (var writer = new StreamWriter($"C:/Users/jeang/Desktop/Projetos/Everis/PelandoSalesWebScrap/{fileName}.csv", false, Encoding.UTF8))
+            using (var writer = new StreamWriter($"YourComputerPath/{fileName}.csv", false, Encoding.UTF8))
             using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture)) {
                 csv.WriteRecords(lstProducts);
             }
